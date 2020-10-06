@@ -4,62 +4,6 @@
     
         
         <url>
-            <loc>/</loc>
-            <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/</loc>
-            <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/warsaw-poland/</loc>
-            <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/hel-poland-3/</loc>
-            <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/hel-poland-2/</loc>
-            <lastmod>2020-01-23T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/arizona-us/</loc>
-            <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/chicago-us/</loc>
-            <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/research-paper/panaji-india-2/</loc>
-            <lastmod>2020-01-07T00:00:00+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
             <loc>/categories/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
@@ -67,14 +11,21 @@
     
         
         <url>
-            <loc>/poster/2015-07-23-r-rmarkdown/</loc>
+            <loc>/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/tags/plot/</loc>
+            <loc>/about/</loc>
+            <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>/application/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
@@ -82,6 +33,20 @@
         
         <url>
             <loc>/poster/</loc>
+            <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>/research-paper/</loc>
+            <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>/tags/plot/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
@@ -117,18 +82,6 @@
         
         <url>
             <loc>/proposal/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/about/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>/application/</loc>
         </url>
         
     
