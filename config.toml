@@ -1,0 +1,28 @@
+baseurl = "https://healthheroes.com/"
+title = "HealthHeroes"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about"
+
+  [[params.navlinks]]
+  name = "proposal/"
+  url = "proposal"
+
+  [[params.navlinks]]
+  name = "poster/"
+  url = "poster/"
+  
+  [[params.navlinks]]
+  name = "application/"
+  url = "application/"
+  
+  [[params.navlinks]]
+  name = "research-paper/"
+  url = "research-paper/"
