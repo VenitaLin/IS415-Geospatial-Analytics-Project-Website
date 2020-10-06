@@ -17,12 +17,11 @@ languageCode = "en-us"
 
   [[params.navlinks]]
   name = "poster/"
-  url = "poster/"
+  url = "poster"
   
   [[params.navlinks]]
   name = "application/"
-  url = "application/"
+  url = "application"
   
   [[params.navlinks]]
   name = "research-paper/"
-  url = "research-paper/"
