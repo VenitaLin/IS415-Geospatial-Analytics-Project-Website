@@ -9,17 +9,6 @@
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate><atom:link href="/tags/regression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
-      <link>/about/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/about/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
       <link>/application/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
@@ -49,16 +38,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Proposal</title>
-      <link>/proposal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/proposal/</guid>
-      <description>Description Our project aims to make use of geospatial intelligence to explore the accessibility of residents to amenities that advocate a healthier lifestyle, and also the spatial patterns involved. The scope of our analysis will involve two main facets of a healthier lifestyle, namely food and exercise.
- Motivation There is presently no application that employs geospatial analysis techniques such as buffering or raster density maps to access the availability of health-advocating amenities from all the three main aspects as mentioned above.</description>
     </item>
     
   </channel>
