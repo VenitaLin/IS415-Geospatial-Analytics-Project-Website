@@ -4,84 +4,89 @@
     
         
         <url>
-            <loc>/categories/</loc>
+            <loc>https://healthheroes.com/categories/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/</loc>
+            <loc>https://healthheroes.com/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/about/</loc>
+            <loc>https://healthheroes.com/application/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/application/</loc>
+            <loc>https://healthheroes.com/poster/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/poster/</loc>
+            <loc>https://healthheroes.com/research-paper/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/research-paper/</loc>
+            <loc>https://healthheroes.com/tags/plot/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/tags/plot/</loc>
+            <loc>https://healthheroes.com/categories/r/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/categories/r/</loc>
+            <loc>https://healthheroes.com/tags/r-markdown/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/tags/r-markdown/</loc>
+            <loc>https://healthheroes.com/tags/regression/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/tags/regression/</loc>
+            <loc>https://healthheroes.com/tags/</loc>
             <lastmod>2015-07-23T21:13:14-05:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>/tags/</loc>
-            <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+            <loc>https://healthheroes.com/about/</loc>
         </url>
         
     
         
         <url>
-            <loc>/proposal/</loc>
+            <loc>https://healthheroes.com/proposal/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://healthheroes.com/tags/proposal/</loc>
         </url>
         
     

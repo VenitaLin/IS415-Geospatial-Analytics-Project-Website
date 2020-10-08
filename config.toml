@@ -23,5 +23,5 @@ languageCode = "en-us"
   url = "application"
   
   [[params.navlinks]]
-  name = "research-paper/"
+  name = "research paper/"
   url = "research-paper"
