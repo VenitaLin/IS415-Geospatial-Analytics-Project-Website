@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HealthHeroes</title>
-    <link>/</link>
+    <link>https://healthheroes.netlify.app/</link>
     <description>Recent content on HealthHeroes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://healthheroes.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://healthheroes.netlify.app/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://healthheroes.netlify.app/about/</guid>
       <description> Description Our project aims to make use of geospatial intelligence to explore the accessibility of residents to amenities that advocate a healthier lifestyle, and also the spatial patterns involved. The scope of our analysis will involve two main facets of a healthier lifestyle, namely food and exercise.
  </description>
     </item>
     
     <item>
       <title>Application</title>
-      <link>/application/</link>
+      <link>https://healthheroes.netlify.app/application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/application/</guid>
+      <guid>https://healthheroes.netlify.app/application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poster</title>
-      <link>/poster/</link>
+      <link>https://healthheroes.netlify.app/poster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/poster/</guid>
+      <guid>https://healthheroes.netlify.app/poster/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proposal</title>
-      <link>/proposal/</link>
+      <link>https://healthheroes.netlify.app/proposal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/proposal/</guid>
+      <guid>https://healthheroes.netlify.app/proposal/</guid>
       <description>Motivation There is presently no application that employs geospatial analysis techniques such as buffering or raster density maps to access the availability of health-advocating amenities from all the three main aspects as mentioned above.
 Our application will provide an easy to understand and user-friendly GUI, but will also contain a degree of technical depth such that urban planners can identify and resolve any potential lapses or areas of improvement.</description>
     </item>
     
     <item>
       <title>Research Paper</title>
-      <link>/research-paper/</link>
+      <link>https://healthheroes.netlify.app/research-paper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/research-paper/</guid>
+      <guid>https://healthheroes.netlify.app/research-paper/</guid>
       <description></description>
     </item>
     
