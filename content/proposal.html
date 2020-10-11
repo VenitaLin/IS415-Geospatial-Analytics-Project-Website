@@ -29,9 +29,9 @@ tags: ["R Markdown", "proposal"]
 <li><p>Healthier Eateries
 Dataset for healthier dining partners as eating well is fundamental to good health and well-being. Healthy eating will help Singapore to maintain a healthy body.
 <a href="https://data.gov.sg/dataset/healthier-eateries" class="uri">https://data.gov.sg/dataset/healthier-eateries</a></p></li>
-<li><p><a href="mailto:Parks@SG" class="email">Parks@SG</a>
-Dataset for places to relax and for light exercises in Singapore. Spending time outside at a park is good for physical and mental health.
-<a href="https://data.gov.sg/dataset/parkssg" class="uri">https://data.gov.sg/dataset/parkssg</a></p></li>
+<li><p>Bbbike
+Dataset allow us to identify safe and short bike routes in Singapore
+<a href="https://www.bbbike.org/Singapore/" class="uri">https://www.bbbike.org/Singapore/</a></p></li>
 <li><p><a href="mailto:Gyms@SG" class="email">Gyms@SG</a>
 Location dataset of exercise facilities around Singapore. Gym helps to increase
 cardiovascular fitness, stronger muscles and maintain a healthy body.
@@ -46,13 +46,94 @@ Given by Prof Kam</p></li>
 </div>
 <div id="methodology" class="section level1">
 <h1>Methodology</h1>
+<ul>
+<li>dplyr</li>
+<li>DT</li>
+<li>ggplot2</li>
+<li>ggpubr</li>
+<li>GWmodel</li>
+<li>leaflet</li>
+<li>olsrr</li>
+<li>plotly</li>
+<li>raster</li>
+<li>RColorBrewer</li>
+<li>rgdal</li>
+<li>rsconnect</li>
+<li>sf</li>
+<li>shiny</li>
+<li>shinydashboard</li>
+<li>shinythemes</li>
+<li>sp</li>
+<li>SpatialAcc</li>
+<li>spdep</li>
+<li>tidyverse</li>
+<li>tmap</li>
+<li>tmaptools</li>
+</ul>
+<div id="data-wranglingdata-cleaning" class="section level3">
+<h3>Data wrangling/Data Cleaning</h3>
+<ul>
+<li>Derive and clean the data based on our project scope</li>
+</ul>
+</div>
+<div id="choropleth-mapping" class="section level3">
+<h3>Choropleth Mapping</h3>
+<ul>
+<li>Codify the subzone area by using appropriate spatial weight matrix</li>
+<li>Analyse general spatial patterns revealed by subzones</li>
+</ul>
+</div>
+<div id="buffer-analysis" class="section level3">
+<h3>Buffer Analysis</h3>
+<ul>
+<li>Look at the buffer to be in terms of minutes of walk away from the residents’ blocks to the nearest clinics</li>
+</ul>
+</div>
+<div id="point-pattern-analysis" class="section level3">
+<h3>Point Pattern Analysis</h3>
+<ul>
+<li>Derive and clean the data based on our project scope</li>
+</ul>
+</div>
+<div id="data-wranglingdata-cleaning-1" class="section level3">
+<h3>Data wrangling/Data Cleaning</h3>
+<ul>
+<li>Kernel Density Estimation</li>
+<li>First order and Second order effects</li>
+</ul>
+</div>
+<div id="geovisualization" class="section level3">
+<h3>Geovisualization</h3>
+<ul>
+<li>Provide statistical outcomes into business-friendly representations to allow easy understanding.</li>
+</ul>
+</div>
+</div>
+<div id="literature-review" class="section level1">
+<h1>Literature Review</h1>
+<p>Literature sources
+<a href="https://wiki.smu.edu.sg/1819t2is415/BusinessMafia_Home" class="uri">https://wiki.smu.edu.sg/1819t2is415/BusinessMafia_Home</a></p>
+<div id="literature-review-1business-mafia" class="section level3">
+<h3>Literature Review 1:Business Mafia</h3>
+<p>As our group will be analysing the accessibility of residents to amenities that advocate a healthier lifestyle, we have decided to do literature review business mafia as they have covered the information and methods of how they analyse the accessibility or areas.</p>
+<p>Business Mafia is a project from IS415 in 2018. They analyse spatial relationships between various key locations and Airbnb listings in Downtown Seattle to determine how a listing’s location affects the listing prices They used spatial analysis to allow hosts to visualise and understand the listing’s surroundings better.</p>
+<p>Business Mafia has covered geographical accessibility techniques which our group is interested in. Business mafia group used Hansen’s potential model</p>
+<p><img src="image/formula.JPG" /></p>
+<p>Hansen’s potential model allows us to identify geographical accessibility. ‘SpatialAcc’ library from R can be used to build the model.</p>
+<p>They use five parameters, ‘p’, ‘n’, ‘D’, ‘power’ and ‘family’.</p>
+<p>These parameters allow us to quantify the demand and supply of the services in each location. They further analyzed to come out with a matrix of quantity separating the demand from the supply. Also, the distance decay function is used to reflect the rate of increase of friction in the distance.</p>
+<p>Our group will explore more to understand each parameter and use the suitable parameter for our analysis.</p>
+<p><img src="image/tmap.JPG" /></p>
+<p>After running the analysis with the ‘SpatialAcc’ package, they use the ‘tmap’ package to visualise.</p>
 <p>R Packages used - might need more, including buffer on corrplot</p>
+</div>
 </div>
 <div id="application-design-storyboard" class="section level1">
 <h1>Application design storyboard</h1>
 </div>
 <div id="system-architecture" class="section level1">
 <h1>System architecture</h1>
+<p><img src="image/arch.jpg" /></p>
 </div>
 <div id="storyboard" class="section level1">
 <h1>Storyboard</h1>
