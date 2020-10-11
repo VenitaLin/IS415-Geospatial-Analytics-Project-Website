@@ -118,30 +118,33 @@ Given by Prof Kam</p></li>
 <p>As our group will be analysing the accessibility of residents to amenities that advocate a healthier lifestyle, we have decided to do literature review business mafia as they have covered the information and methods of how they analyse the accessibility or areas.</p>
 <p>Business Mafia is a project from IS415 in 2018. They analyse spatial relationships between various key locations and Airbnb listings in Downtown Seattle to determine how a listing’s location affects the listing prices They used spatial analysis to allow hosts to visualise and understand the listing’s surroundings better.</p>
 <p>Business Mafia has covered geographical accessibility techniques which our group is interested in. Business mafia group used Hansen’s potential model</p>
-<p><img src="image/formula.JPG" /></p>
+<div class="figure">
+<img src="/proposal_files/figure-html/formula.jpg" alt="" />
+<p class="caption">formula</p>
+</div>
 <p>Hansen’s potential model allows us to identify geographical accessibility. ‘SpatialAcc’ library from R can be used to build the model.</p>
 <p>They use five parameters, ‘p’, ‘n’, ‘D’, ‘power’ and ‘family’.</p>
 <p>These parameters allow us to quantify the demand and supply of the services in each location. They further analyzed to come out with a matrix of quantity separating the demand from the supply. Also, the distance decay function is used to reflect the rate of increase of friction in the distance.</p>
 <p>Our group will explore more to understand each parameter and use the suitable parameter for our analysis.</p>
-<p><img src="image/tmap.JPG" /></p>
+<div class="figure">
+<img src="/proposal_files/figure-html/tmap.jpg" alt="" />
+<p class="caption">tmap</p>
+</div>
 <p>After running the analysis with the ‘SpatialAcc’ package, they use the ‘tmap’ package to visualise.</p>
 <p>R Packages used - might need more, including buffer on corrplot</p>
 </div>
 </div>
 <div id="application-design-storyboard" class="section level1">
 <h1>Application design storyboard</h1>
+<p><img src="/proposal_files/figure-html/Storyboard%20KD.jpg" alt="Kernel Density" />
+<img src="/proposal_files/figure-html/Storyboard%20SPP.jpg" alt="Spatial Point Pattern" />
+<img src="/proposal_files/figure-html/Storyboard%20Acc.jpg" alt="Accessibility" /></p>
 </div>
 <div id="system-architecture" class="section level1">
 <h1>System architecture</h1>
-<p><img src="image/arch.jpg" /></p>
-</div>
-<div id="storyboard" class="section level1">
-<h1>Storyboard</h1>
-<p><img src="/proposal_files/figure-html/Storyboard%20KD.jpg" alt="Kernel Density" />
-<img src="/proposal_files/figure-html/Storyboard%20SPP.jpg" alt="Spatial Point Pattern" /></p>
 <div class="figure">
-<img src="/proposal_files/figure-html/Storyboard%20Acc.jpg" alt="" />
-<p class="caption">Accessibility</p>
+<img src="/proposal_files/figure-html/arch.jpg" alt="" />
+<p class="caption">System architecture</p>
 </div>
 </div>
 <div id="gantt-chart" class="section level1">

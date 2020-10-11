@@ -108,8 +108,7 @@ Business Mafia is a project from IS415 in 2018. They analyse spatial relationshi
 
 Business Mafia has covered geographical accessibility techniques which our group is interested in. Business mafia group used Hansen’s potential model 
 
-![](image/formula.jpg)
-
+![formula](/proposal_files/figure-html/formula.jpg)
 
 Hansen’s potential model allows us to identify geographical accessibility. ‘SpatialAcc’ library from R can be used to build the model. 
 
@@ -120,7 +119,7 @@ These parameters allow us to quantify the demand and supply of the services in e
 Our group will explore more to understand each parameter and use the suitable parameter for our analysis. 
 
 
-![](image/tmap.jpg)
+![tmap](/proposal_files/figure-html/tmap.jpg)
 
 After running the analysis with the ‘SpatialAcc’ package, they use the ‘tmap’ package to visualise. 
 
@@ -129,14 +128,12 @@ After running the analysis with the ‘SpatialAcc’ package, they use the ‘tm
 R Packages used - might need more, including buffer on corrplot
 
 # Application design storyboard
-
-# System architecture
-![](image/arch.jpg)
-
-# Storyboard
 ![Kernel Density](/proposal_files/figure-html/Storyboard KD.jpg)
 ![Spatial Point Pattern](/proposal_files/figure-html/Storyboard SPP.jpg)
 ![Accessibility](/proposal_files/figure-html/Storyboard Acc.jpg)
+
+# System architecture
+![System architecture](/proposal_files/figure-html/arch.jpg)
 
 # Gantt Chart
 [Click here to view our gantt chart](https://projects.hive.com/?shareToken=44r46wc6ScY7MjSSX5MRFfsijvrSZJsPErmyE9sSzNWamBqZEDHFYSXaZrf9kAXP)
