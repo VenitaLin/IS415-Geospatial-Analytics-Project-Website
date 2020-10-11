@@ -1,4 +1,4 @@
-baseurl = "https://healthheroes.com/"
+baseurl = "https://healthheroes.netlify.app/"
 title = "HealthHeroes"
 theme = "hugo-theme-console"
 languageCode = "en-us"
