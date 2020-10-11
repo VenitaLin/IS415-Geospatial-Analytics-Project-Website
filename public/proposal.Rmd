@@ -1,9 +1,6 @@
 ---
 title: "Proposal"
-categories: ["R"]
-tags: ["R Markdown", "proposal"]
 ---
-
 # Motivation
 
 There is presently no application that employs geospatial analysis techniques such as buffering or raster density maps to access the availability of health-advocating amenities from all the three main aspects as mentioned above.
@@ -17,33 +14,27 @@ Our application will provide an easy to understand and user-friendly GUI, but wi
 * Visualize the proximities of these facilities to residential areas and identify any lapses in accessibility
 * Evaluate results of analysis and provide recommendations to further extend the options available for residents to live a healthier lifestyle.
 
-# Reviews of past projects
-
 # Data Sources
-* Healthier Eateries 
-Dataset for healthier dining partners as eating well is fundamental to good health and well-being. Healthy eating will help Singapore to maintain a healthy body.
-https://data.gov.sg/dataset/healthier-eateries
+* [Healthier Eateries](https://data.gov.sg/dataset/healthier-eateries)
+: Dataset for healthier dining partners as eating well is fundamental to good health and well-being. Healthy eating will help Singapore to maintain a healthy body.
 
-* Bbbike
-Dataset allow us to identify safe and short bike routes in Singapore
-https://www.bbbike.org/Singapore/
+* [Bbbike](https://www.bbbike.org/Singapore/)
+: Dataset allow us to identify safe and short bike routes in Singapore
 
-
-* Gyms@SG
-Location dataset of exercise facilities around Singapore. Gym helps to increase
+* [Gyms@SG](https://data.gov.sg/dataset/gymssg)
+: Location dataset of exercise facilities around Singapore. Gym helps to increase
 cardiovascular fitness, stronger muscles and maintain a healthy body. 
-https://data.gov.sg/dataset/gymssg
 
+* [Singapore Planning Subzone](https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea)
+: Singapore map out at a planning subzone level
 
-* Singapore Planning Subzone (MP14_SUBZONE_WEB_PL) 
-Singapore map out at a planning subzone level
-https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea
-
-* Singapore Residents by Subzone, Age Group and Sex, June 2017 (Gender)
-Dataset to identify the residents’ details by subzone
-Given by Prof Kam
+* [Singapore Residents by Planning AreaSubzone, Age Group, Sex and Type of Dwelling, June 2011-2020](https://www.singstat.gov.sg/find-data/search-by-theme/population/geographic-distribution/latest-data)
+: Dataset to identify the residents’ details by subzone
 
 # Methodology
+
+## R Packages used
+
 * dplyr
 * DT
 * ggplot2
@@ -67,48 +58,30 @@ Given by Prof Kam
 * tmap
 * tmaptools
 
-### Data wrangling/Data Cleaning
-
-* Derive and clean the data based on our project scope
-
-### Choropleth Mapping
-
-* Codify the subzone area by using appropriate spatial weight matrix
-* Analyse general spatial patterns revealed by subzones
-
-
-### Buffer Analysis
-
-* Look at the buffer to be in terms of minutes of walk away from the residents’ blocks to the nearest clinics
-
-
-### Point Pattern Analysis
-
-* Derive and clean the data based on our project scope
-
-### Data wrangling/Data Cleaning
-
-* Kernel Density Estimation
-* First order and Second order effects
-
-### Geovisualization
-* Provide statistical outcomes into business-friendly representations to allow easy understanding.
+## General Methodology
+* Data wrangling/Data Cleaning
+* Kernel Desity Analysis
+* Geographical Accessibility Analysis
+  + Hansen's Potential Model
+  + Power function
+* Spatial Point Pattern Analysis technique
+  + First Order
+  + Second Order
 
 
 # Literature Review
 
-Literature sources
-https://wiki.smu.edu.sg/1819t2is415/BusinessMafia_Home
+[Literature sources](https://wiki.smu.edu.sg/1819t2is415/BusinessMafia_Home)
 
 ### Literature Review 1:Business Mafia
 
-As our group will be analysing the accessibility of residents to amenities that advocate a healthier lifestyle, we have decided to do literature review business mafia as they have covered the information and methods of how they analyse the accessibility or areas.
+As our group will be analysing the accessibility of residents to amenities that advocate a healthier lifestyle, we have decided to do literature review on project - Business Mafia. This project have covered the information and methods 
 
 Business Mafia is a project from IS415 in 2018. They analyse spatial relationships between various key locations and Airbnb listings in Downtown Seattle to determine how a listing’s location affects the listing prices  They used spatial analysis to allow hosts to visualise and understand the listing’s surroundings better.
 
 Business Mafia has covered geographical accessibility techniques which our group is interested in. Business mafia group used Hansen’s potential model 
 
-![formula](/proposal_files/figure-html/formula.jpg)
+![](/proposal_files/figure-html/formula.jpg){ width=50% }
 
 Hansen’s potential model allows us to identify geographical accessibility. ‘SpatialAcc’ library from R can be used to build the model. 
 
@@ -119,21 +92,18 @@ These parameters allow us to quantify the demand and supply of the services in e
 Our group will explore more to understand each parameter and use the suitable parameter for our analysis. 
 
 
-![tmap](/proposal_files/figure-html/tmap.jpg)
+![](/proposal_files/figure-html/tmap.jpg){ width=50% }
 
-After running the analysis with the ‘SpatialAcc’ package, they use the ‘tmap’ package to visualise. 
-
-
-
-R Packages used - might need more, including buffer on corrplot
+After running the analysis with the ‘SpatialAcc’ package, they use the ‘tmap’ package for visualization. 
 
 # Application design storyboard
-![Kernel Density](/proposal_files/figure-html/Storyboard KD.jpg)
-![Spatial Point Pattern](/proposal_files/figure-html/Storyboard SPP.jpg)
-![Accessibility](/proposal_files/figure-html/Storyboard Acc.jpg)
+![](/proposal_files/figure-html/Storyboard KD.jpg){ width=80% }
+
+![](/proposal_files/figure-html/Storyboard SPP.jpg){ width=80% }
+![](/proposal_files/figure-html/Storyboard Acc.jpg){ width=80% }
 
 # System architecture
-![System architecture](/proposal_files/figure-html/arch.jpg)
+![](/proposal_files/figure-html/arch.jpg)
 
 # Gantt Chart
 [Click here to view our gantt chart](https://projects.hive.com/?shareToken=44r46wc6ScY7MjSSX5MRFfsijvrSZJsPErmyE9sSzNWamBqZEDHFYSXaZrf9kAXP)
