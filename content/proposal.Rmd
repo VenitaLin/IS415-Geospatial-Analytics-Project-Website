@@ -131,8 +131,12 @@ R Packages used - might need more, including buffer on corrplot
 # Application design storyboard
 
 # System architecture
-
 ![](image/arch.jpg)
+
+# Storyboard
+![Kernel Density](/proposal_files/figure-html/Storyboard KD.jpg)
+![Spatial Point Pattern](/proposal_files/figure-html/Storyboard SPP.jpg)
+![Accessibility](/proposal_files/figure-html/Storyboard Acc.jpg)
 
 # Gantt Chart
 [Click here to view our gantt chart](https://projects.hive.com/?shareToken=44r46wc6ScY7MjSSX5MRFfsijvrSZJsPErmyE9sSzNWamBqZEDHFYSXaZrf9kAXP)
