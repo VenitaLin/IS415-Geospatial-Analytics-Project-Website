@@ -5,41 +5,22 @@
     <link>https://healthheroes.com/tags/</link>
     <description>Recent content in Tags on HealthHeroes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate><atom:link href="https://healthheroes.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>plot</title>
-      <link>https://healthheroes.com/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://healthheroes.com/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://healthheroes.com/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://healthheroes.com/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://healthheroes.com/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://healthheroes.com/tags/regression/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://healthheroes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>proposal</title>
       <link>https://healthheroes.com/tags/proposal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://healthheroes.com/tags/proposal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://healthheroes.com/tags/r-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://healthheroes.com/tags/r-markdown/</guid>
       <description></description>
     </item>
     
