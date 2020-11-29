@@ -7,10 +7,6 @@ languageCode = "en-us"
   titleCutting = false
 
   [[params.navlinks]]
-  name = "about/"
-  url = "about"
-
-  [[params.navlinks]]
   name = "proposal/"
   url = "proposal"
 
